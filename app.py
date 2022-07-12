@@ -47,3 +47,4 @@ def make_that_cool_barchart(beers, ibu_values, abv_values, color1, color2, mytit
 if __name__ == '__main__':
     fig = make_that_cool_barchart(beers, ibu_values, abv_values, color1, color2, mytitle)
     fig.write_html('docs/barchart.html')
+    print('We successfully updated the barchart!')
